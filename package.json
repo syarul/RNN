@@ -1,0 +1,34 @@
+{
+  "name": "rnn",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "ML with Recurrent Neural Networks (NLP Zero to Hero) conversion to tfjs",
+  "main": "rnn.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syarul/RNN.git"
+  },
+  "keywords": [
+    "tenserflow",
+    "NLP",
+    "RNN",
+    "Recurrent Neural Networks",
+    "Natural Language Processing",
+    "ML"
+  ],
+  "author": "Shahrul Nizam Selamat <hottincup@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/syarul/RNN/issues"
+  },
+  "homepage": "https://github.com/syarul/RNN#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.8.0",
+    "@tensorflow/tfjs-node": "^4.8.0",
+    "array-sequence-utils": "^0.0.4",
+    "text-tokenizer-utils": "^0.0.3"
+  }
+}
